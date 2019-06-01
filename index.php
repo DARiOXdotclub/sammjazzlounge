@@ -30,7 +30,7 @@ EOD;
         $title = 'Interview';
         goto interview;
     } else {
-        echo "ohno";
+        header("Location: index.php?page=home");
     }
 
     interview:
