@@ -243,7 +243,7 @@ EOD;
         $content = $interviewcontent[7];
         $audio = $interviewdllinks[7];
     } elseif ($interviewid == 'kurt-elling') {
-		content = $interviewcontent[8];
+		$content = $interviewcontent[8];
 		$audio = $interviewdllinks[8];
 	}
     goto audiocheck;
