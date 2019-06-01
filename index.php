@@ -43,6 +43,7 @@ EOD;
     $interviewdllinks[5] = "https://storage.googleapis.com/dariox/samm/interview/LIBBY-HAMMER.wav";
     $interviewdllinks[6] = "https://storage.googleapis.com/dariox/samm/interview/PJS.wav";
     $interviewdllinks[7] = "https://storage.googleapis.com/dariox/samm/interview/VINCE-JONES.mp3";
+	$interviewdllinks[8] = "https://storage.googleapis.com/dariox/samm/interview/KURT-ELLING.wav";
 
     /* ----Interview Content---- */
     $interviewcontent = array();
@@ -197,6 +198,26 @@ Currently he is living on the south coast of New South Wales, on the edge of the
     </div>
     <audio controls class="interview audio">
         <source src="https://storage.googleapis.com/dariox/samm/interview/VINCE-JONES.mp3" type="audio/mpeg">
+    </audio>
+</div>
+EOD;
+	$interviewcontent[8] = <<<EOD
+<div class="interview">
+    <div class="interview image">
+        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/kurtelling.jpg" height="256" width="256" />
+        <div class="interview title">
+            Kurt Elling
+        </div>
+    </div>
+    <div class="interview description">
+Kurt Elling (born November 2, 1967) is an American jazz singer and songwriter.
+<br><br>
+Born in Chicago, Illinois, and raised in Rockford, Elling became interested in music through his father, who was Kapellmeister at a Lutheran church. He sang in choirs and played musical instruments. He encountered jazz while a student at Gustavus Adolphus College in Minnesota. After college, he enrolled in the University of Chicago Divinity School, but he left one credit short of a degree to pursue a career as a jazz vocalist.
+<br><br>
+Elling began to perform around Chicago, scat singing and improvising his lyrics. He recorded a demo in the early 1990s and was signed by Blue Note. He has been nominated for ten Grammy Awards, winning Best Vocal Jazz Album for Dedicated to You (2009). Elling often leads the Down Beat magazine Critics' Poll. He has collaborated often with pianist Laurence Hobgood, leading a quartet that tours throughout the world.
+    </div>
+    <audio controls class="interview audio">
+        <source src="https://storage.googleapis.com/dariox/samm/interview/KURT-ELLING.wav" type="audio/x-wav">
     </audio>
 </div>
 EOD;
