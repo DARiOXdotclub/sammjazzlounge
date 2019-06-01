@@ -13,7 +13,7 @@
     $content = 'oof';
 
 $homecontent = <<<EOD
-<br><h3 id="interview">Interviews</h3><a href="?page=interview&interview=adam-hall">Adam Hall</a><br><a href="?page=interview&interview=cathrine-summers">Cathrine Summers</a><br><a href="?page=interview&interview=hobgood">Laurence Hobgood</a><br><a href="?page=interview&interview=kate-pass">Kate Pass</a><br><a href="?page=interview&interview=libby-hammer">Libby Hammer</a><br><a href="?page=interview&interview=pjs">Perth Jazz Society</a><br><a href="?page=interview&interview=vince-jones">Vince Jones</a><br><br><h3 id="contact">Contact</h3>You can contact Samm on her <a href="https://www.facebook.com/SammsJazzLounge">Facebook Page</a><br><br>If there are any problems with the website don't hesitate to email the website operator (Jyles Coad-Ward)<br> <a href="mailto:dariox.club@gmail.com">HERE</strong></a>
+<br><h3 id="interview">Interviews</h3><a href="?page=interview&interview=adam-hall">Adam Hall</a><br><a href="?page=interview&interview=cathrine-summers">Cathrine Summers</a><br><a href="?page=interview&interview=hobgood">Laurence Hobgood</a><br><a href="?page=interview&interview=kate-pass">Kate Pass</a><br><a href="?page=interview&interview=libby-hammer">Libby Hammer</a><br><a href="?page=interview&interview=pjs">Perth Jazz Society</a><br><a href="?page=interview&interview=vince-jones">Vince Jones</a><br><a href="?page=interview&interview=kurt-elling">Kurt Elling</a><br><br><h3 id="contact">Contact</h3>You can contact Samm on her <a href="https://www.facebook.com/SammsJazzLounge">Facebook Page</a><br><br>If there are any problems with the website don't hesitate to email the website operator (Jyles Coad-Ward)<br> <a href="mailto:dariox.club@gmail.com">HERE</strong></a>
 EOD;
 $contactcontent = <<<EOD
 <h3>The only way to contact me is through my <a href="https://www.facebook.com/SammsJazzLounge/">Facebook Page</a><br><br>If there are any problems with the website please eamil the website administrator (Jyles Coad-Ward) <a href="mailto:dariox.club@gmail.com">Here</a></h3>
@@ -242,7 +242,10 @@ EOD;
     } elseif ($interviewid == 'vince-jones') {
         $content = $interviewcontent[7];
         $audio = $interviewdllinks[7];
-    }
+    } elseif ($interviewid == 'kurt-elling') {
+		content = $interviewcontent[8];
+		$audio = $interviewdllinks[8];
+	}
     goto audiocheck;
 
 
