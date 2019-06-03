@@ -13,10 +13,10 @@
     $content = 'oof';
 
 $homecontent = <<<EOD
-<br><h3 id="interview">Interviews</h3><a href="?page=interview&interview=adam-hall">Adam Hall</a><br><a href="?page=interview&interview=cathrine-summers">Cathrine Summers</a><br><a href="?page=interview&interview=hobgood">Laurence Hobgood</a><br><a href="?page=interview&interview=kate-pass">Kate Pass</a><br><a href="?page=interview&interview=libby-hammer">Libby Hammer</a><br><a href="?page=interview&interview=pjs">Perth Jazz Society</a><br><a href="?page=interview&interview=vince-jones">Vince Jones</a><br><br><h3 id="contact">Contact</h3>You can contact Samm on her <a href="https://www.facebook.com/SammsJazzLounge">Facebook Page</a><br><br>If there are any problems with the website don't hesitate to email the website operator (Jyles Coad-Ward)<br> <a href="mailto:dariox.club@gmail.com">HERE</strong></a>
+<br><h3 id="interview">Interviews</h3><a href="?page=interview&interview=adam-hall">Adam Hall</a><br><a href="?page=interview&interview=cathrine-summers">Cathrine Summers</a><br><a href="?page=interview&interview=hobgood">Laurence Hobgood</a><br><a href="?page=interview&interview=kate-pass">Kate Pass</a><br><a href="?page=interview&interview=libby-hammer">Libby Hammer</a><br><a href="?page=interview&interview=pjs">Perth Jazz Society</a><br><a href="?page=interview&interview=vince-jones">Vince Jones</a><br><a href="?page=interview&interview=kurt-elling">Kurt Elling</a><br><a href="?page=interview&interview=penny-king">Penny King</a><br><br><h3 id="contact">Contact</h3>You can contact Samm on her <a href="https://www.facebook.com/SammsJazzLounge">Facebook Page</a><br><br>If there are any problems with the website don't hesitate to email the website operator (Jyles Coad-Ward)<br> <a href="mailto:dariox.club@gmail.com">HERE</strong></a>
 EOD;
 $contactcontent = <<<EOD
-<h1>The only way to contact me is through my <a href="https://www.facebook.com/SammsJazzLounge/">Facebook Page</a></h1>
+<h3>The only way to contact me is through my <a href="https://www.facebook.com/SammsJazzLounge/">Facebook Page</a><br><br>If there are any problems with the website please eamil the website administrator (Jyles Coad-Ward) <a href="mailto:dariox.club@gmail.com">Here</a></h3>
 EOD;
 
 
@@ -30,19 +30,22 @@ EOD;
         $title = 'Interview';
         goto interview;
     } else {
-        echo "ohno";
+        header("Location: index.php?page=home");
     }
 
     interview:
     /* ----Interview Links---- */
     $interviewdllinks = array();
-    $interviewdllinks[1] = "https://storage.googleapis.com/dariox/samm/interview/ADAM-HALL.wav";
-    $interviewdllinks[2] = "https://storage.googleapis.com/dariox/samm/interview/CATHRINE-SUMMERS.wav";
-    $interviewdllinks[3] = "https://storage.googleapis.com/dariox/samm/interview/HOBGOOD.wav";
-    $interviewdllinks[4] = "https://storage.googleapis.com/dariox/samm/interview/KATE-PASS.mp3";
-    $interviewdllinks[5] = "https://storage.googleapis.com/dariox/samm/interview/LIBBY-HAMMER.wav";
-    $interviewdllinks[6] = "https://storage.googleapis.com/dariox/samm/interview/PJS.wav";
-    $interviewdllinks[7] = "https://storage.googleapis.com/dariox/samm/interview/VINCE-JONES.mp3";
+    $interviewdllinks[1]  = "https://storage.googleapis.com/dariox/samm/interview/ADAM-HALL.wav";
+    $interviewdllinks[2]  = "https://storage.googleapis.com/dariox/samm/interview/CATHRINE-SUMMERS.wav";
+    $interviewdllinks[3]  = "https://storage.googleapis.com/dariox/samm/interview/HOBGOOD.wav";
+    $interviewdllinks[4]  = "https://storage.googleapis.com/dariox/samm/interview/KATE-PASS.mp3";
+    $interviewdllinks[5]  = "https://storage.googleapis.com/dariox/samm/interview/LIBBY-HAMMER.wav";
+    $interviewdllinks[6]  = "https://storage.googleapis.com/dariox/samm/interview/PJS.wav";
+    $interviewdllinks[7]  = "https://storage.googleapis.com/dariox/samm/interview/VINCE-JONES.mp3";
+	$interviewdllinks[8]  = "https://storage.googleapis.com/dariox/samm/interview/KURT-ELLING.wav";
+	$interviewdllinks[9]  = "https://storage.googleapis.com/dariox/samm/interview/PENNY-KING.wav";
+	$interviewdllinks[10] = "";
 
     /* ----Interview Content---- */
     $interviewcontent = array();
@@ -185,9 +188,9 @@ EOD;
         </div>
     </div>
     <div class="interview description">
-Vincent Hugh Jones was born on 24 March 1954 in Paisley, Scotland.[2] He is the second eldest of four children to John Jones and Mary (née Docherty); the family moved to Australia in April 1964 and lived in Wollongong.[3][4] He attributes his love of jazz to hearing Miles Davis's album Sketches of Spain, when he was about 14 and taught himself to play the trumpet. Jones began his career in 1974 in New South Wales as a bebop trumpet player on the club and jazz circuit.[2]
+Vincent Hugh Jones was born on 24 March 1954 in Paisley, Scotland. He is the second eldest of four children to John Jones and Mary (née Docherty); the family moved to Australia in April 1964 and lived in Wollongong. He attributes his love of jazz to hearing Miles Davis's album Sketches of Spain, when he was about 14 and taught himself to play the trumpet. Jones began his career in 1974 in New South Wales as a bebop trumpet player on the club and jazz circuit.
 <br><br>
-In November 1981 Jones recorded his debut album, Watch What Happens, with John Bye producing at Richmond Recorders in Melbourne.[5][6] Adrian Jackson of Jazz magazine touted Jones as the "new Melbourne jazz star" in June 1982.[7]
+In November 1981 Jones recorded his debut album, Watch What Happens, with John Bye producing at Richmond Recorders in Melbourne. Adrian Jackson of Jazz magazine touted Jones as the "new Melbourne jazz star" in June 1982.
 <br><br>
 In 1994, he contributed "A Song for You" for Kate Ceberanos 1994 album, Kate Ceberano and Friends.
 <br><br>
@@ -200,6 +203,49 @@ Currently he is living on the south coast of New South Wales, on the edge of the
     </audio>
 </div>
 EOD;
+	$interviewcontent[8] = <<<EOD
+<div class="interview">
+    <div class="interview image">
+        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/kurtelling.jpg" height="256" width="256" />
+        <div class="interview title">
+            Kurt Elling
+        </div>
+    </div>
+    <div class="interview description">
+Kurt Elling (born November 2, 1967) is an American jazz singer and songwriter.
+<br><br>
+Born in Chicago, Illinois, and raised in Rockford, Elling became interested in music through his father, who was Kapellmeister at a Lutheran church. He sang in choirs and played musical instruments. He encountered jazz while a student at Gustavus Adolphus College in Minnesota. After college, he enrolled in the University of Chicago Divinity School, but he left one credit short of a degree to pursue a career as a jazz vocalist.
+<br><br>
+Elling began to perform around Chicago, scat singing and improvising his lyrics. He recorded a demo in the early 1990s and was signed by Blue Note. He has been nominated for ten Grammy Awards, winning Best Vocal Jazz Album for Dedicated to You (2009). Elling often leads the Down Beat magazine Critics' Poll. He has collaborated often with pianist Laurence Hobgood, leading a quartet that tours throughout the world.
+    </div>
+    <audio controls class="interview audio">
+        <source src="https://storage.googleapis.com/dariox/samm/interview/KURT-ELLING.wav" type="audio/x-wav">
+    </audio>
+</div>
+EOD;
+	$interviewcontent[9] = <<<EOD
+<div class="interview">
+    <div class="interview image">
+        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/pennyking.png" height="256" width="256" />
+        <div class="interview title">
+            Penny King
+        </div>
+    </div>
+    <div class="interview description">
+Penny  has long been established as one of Western Australia’s premier jazz vocalists, performing with her band since graduating from the prestigious West Australian Academy of Performing Arts (WAAPA) in 1996. She is well known for her passionate and engaging stage presence, as well as her original compositions, and diverse arrangements of standards and contemporary tunes, moving effortlessly across genres but still rooted in jazz.  Her position as vocal tutor in the West Australian Academy of Performing Arts’ jazz department is testament to her respected place in the thriving Perth Jazz scene.
+<br><br>
+Penny regularly plays sell out shows at Western Australia’s finest music venue, The Ellington Jazz Club, as well as various venues throughout Perth, including the Laneway Lounge and the Must Bar. Penny has also has appeared at numerous festivals, including the inaugural Perth International Jazz Festival in 2013, and again in 2015, where she presented her show ‘Both Sides Now: The Music of Joni Mitchell’ with a sextet including musical director Tom O’Halloran, and in 2016, when she was featured with the Michael Pignéguy Quartet.
+
+    </div>
+    <audio controls class="interview audio">
+        <source src="https://storage.googleapis.com/dariox/samm/interview/PENNY-KING.wav" type="audio/x-wav">
+    </audio>
+</div>
+EOD;
+    $interviewcontent[10] = <<<EOD
+
+EOD;
+
     if ($interviewid == 'adam-hall') {
         $content = $interviewcontent[1];
         $audio = $interviewdllinks[1];
@@ -221,6 +267,15 @@ EOD;
     } elseif ($interviewid == 'vince-jones') {
         $content = $interviewcontent[7];
         $audio = $interviewdllinks[7];
+    } elseif ($interviewid == 'kurt-elling') {
+		$content = $interviewcontent[8];
+		$audio = $interviewdllinks[8];
+	} elseif ($interviewid == 'penny-king') {
+        $content = $interviewcontent[9];
+        $audio = $interviewdllinks[9];
+    } elseif ($interviewid == 'libby-hammer') {
+        $content = $interviewcontent[10];
+        $audio = $interviewdllinks[10];
     }
     goto audiocheck;
 
@@ -251,6 +306,8 @@ EOD;
 
 
 
+
+
 ?>
 
 
@@ -270,9 +327,30 @@ EOD;
     </div>
     <div class="content">
         <div class="title">
-            <h1>Samms Jazz Lounge - <?php echo($title); ?></h1>
+            <h1>Samm Jazz Lounge - <?php echo($title); ?></h1>
         </div>
         <?php echo($content); ?>
+        <?php if($interviewid == 'adam-hall') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php elseif($interviewid == 'cathrine-summers') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php elseif($interviewid == 'hobgood') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php elseif($interviewid == 'kate-pass') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php elseif($interviewid == 'libby-hammer') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php elseif($interviewid == 'pjs') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php elseif($interviewid == 'vince-jones') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php elseif($interviewid == 'kurt-elling') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php elseif($interviewid == 'penny-king') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php elseif($interviewid == 'libby-hammer') : ?>
+            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+        <?php endif; ?>
     </div>
     <div class="footer">
         <div class="copyright">
