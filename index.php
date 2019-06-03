@@ -13,10 +13,10 @@
     $content = 'oof';
 
 $homecontent = <<<EOD
-<br><h3 id="interview">Interviews</h3><a href="?page=interview&interview=adam-hall">Adam Hall</a><br><a href="?page=interview&interview=cathrine-summers">Cathrine Summers</a><br><a href="?page=interview&interview=hobgood">Laurence Hobgood</a><br><a href="?page=interview&interview=kate-pass">Kate Pass</a><br><a href="?page=interview&interview=libby-hammer">Libby Hammer</a><br><a href="?page=interview&interview=pjs">Perth Jazz Society</a><br><a href="?page=interview&interview=vince-jones">Vince Jones</a><br><a href="?page=interview&interview=kurt-elling">Kurt Elling</a><br><br><h3 id="contact">Contact</h3>You can contact Samm on her <a href="https://www.facebook.com/SammsJazzLounge">Facebook Page</a><br><br>If there are any problems with the website don't hesitate to email the website operator (Jyles Coad-Ward)<br> <a href="mailto:dariox.club@gmail.com">HERE</strong></a>
+<br><h3 id="interview">Interviews</h3><a href="?page=interview&interview=adam-hall">Adam Hall</a><br><a href="?page=interview&interview=cathrine-summers">Cathrine Summers</a><br><a href="?page=interview&interview=hobgood">Laurence Hobgood</a><br><a href="?page=interview&interview=kate-pass">Kate Pass</a><br><a href="?page=interview&interview=libby-hammer">Libby Hammer</a><br><a href="?page=interview&interview=pjs">Perth Jazz Society</a><br><a href="?page=interview&interview=vince-jones">Vince Jones</a><br><br><h3 id="contact">Contact</h3>You can contact Samm on her <a href="https://www.facebook.com/SammsJazzLounge">Facebook Page</a><br><br>If there are any problems with the website don't hesitate to email the website operator (Jyles Coad-Ward)<br> <a href="mailto:dariox.club@gmail.com">HERE</strong></a>
 EOD;
 $contactcontent = <<<EOD
-<h3>The only way to contact me is through my <a href="https://www.facebook.com/SammsJazzLounge/">Facebook Page</a><br><br>If there are any problems with the website please eamil the website administrator (Jyles Coad-Ward) <a href="mailto:dariox.club@gmail.com">Here</a></h3>
+<h1>The only way to contact me is through my <a href="https://www.facebook.com/SammsJazzLounge/">Facebook Page</a></h1>
 EOD;
 
 
@@ -30,7 +30,7 @@ EOD;
         $title = 'Interview';
         goto interview;
     } else {
-        header("Location: index.php?page=home");
+        echo "ohno";
     }
 
     interview:
@@ -43,7 +43,6 @@ EOD;
     $interviewdllinks[5] = "https://storage.googleapis.com/dariox/samm/interview/LIBBY-HAMMER.wav";
     $interviewdllinks[6] = "https://storage.googleapis.com/dariox/samm/interview/PJS.wav";
     $interviewdllinks[7] = "https://storage.googleapis.com/dariox/samm/interview/VINCE-JONES.mp3";
-	$interviewdllinks[8] = "https://storage.googleapis.com/dariox/samm/interview/KURT-ELLING.wav";
 
     /* ----Interview Content---- */
     $interviewcontent = array();
@@ -201,26 +200,6 @@ Currently he is living on the south coast of New South Wales, on the edge of the
     </audio>
 </div>
 EOD;
-	$interviewcontent[8] = <<<EOD
-<div class="interview">
-    <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/kurtelling.jpg" height="256" width="256" />
-        <div class="interview title">
-            Kurt Elling
-        </div>
-    </div>
-    <div class="interview description">
-Kurt Elling (born November 2, 1967) is an American jazz singer and songwriter.
-<br><br>
-Born in Chicago, Illinois, and raised in Rockford, Elling became interested in music through his father, who was Kapellmeister at a Lutheran church. He sang in choirs and played musical instruments. He encountered jazz while a student at Gustavus Adolphus College in Minnesota. After college, he enrolled in the University of Chicago Divinity School, but he left one credit short of a degree to pursue a career as a jazz vocalist.
-<br><br>
-Elling began to perform around Chicago, scat singing and improvising his lyrics. He recorded a demo in the early 1990s and was signed by Blue Note. He has been nominated for ten Grammy Awards, winning Best Vocal Jazz Album for Dedicated to You (2009). Elling often leads the Down Beat magazine Critics' Poll. He has collaborated often with pianist Laurence Hobgood, leading a quartet that tours throughout the world.
-    </div>
-    <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/KURT-ELLING.wav" type="audio/x-wav">
-    </audio>
-</div>
-EOD;
     if ($interviewid == 'adam-hall') {
         $content = $interviewcontent[1];
         $audio = $interviewdllinks[1];
@@ -242,10 +221,7 @@ EOD;
     } elseif ($interviewid == 'vince-jones') {
         $content = $interviewcontent[7];
         $audio = $interviewdllinks[7];
-    } elseif ($interviewid == 'kurt-elling') {
-		$content = $interviewcontent[8];
-		$audio = $interviewdllinks[8];
-	}
+    }
     goto audiocheck;
 
 
