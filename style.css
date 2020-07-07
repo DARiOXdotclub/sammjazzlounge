@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-@import url("https://storage.googleapis.com/dariox/samm/css/header.css");
-@import url("https://storage.googleapis.com/dariox/samm/css/interview.css");
-@import url("https://storage.googleapis.com/dariox/samm/css/footer.css");
-@import url("https://storage.googleapis.com/dariox/samm/css/misc.css");
+@import url("css/header.css");
+@import url("css/interview.css");
+@import url("css/footer.css");
+@import url("css/misc.css");
 
 * {font-family: 'Lato', sans-serif;}

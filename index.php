@@ -52,7 +52,7 @@ EOD;
     $interviewcontent[1] = <<<EOD
 <div class="interview">
     <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/adamhall.png" height="256" width="256" />
+        <img class="img" src="https://cdn.sammjazzlounge.com/interview/adam-hall/image.png" height="256" width="256" />
         <div class="interview title">
             Adam Hall
         </div>
@@ -77,14 +77,14 @@ Adam Hall features on Bluesin’ The Groove’s 2013 album ‘Mess Around’, wh
 in Germany and ranked number 5 in the international list.
     </div>
     <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/ADAM-HALL.wav" type="audio/x-wav">
+        <source src="https://cdn.sammjazzlounge.com/interview/adam-hall/interview.wav" type="audio/x-wav">
     </audio>
 </div>
 EOD;
     $interviewcontent[2] = <<<EOD
 <div class="interview">
     <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/cathrine-summers.jpg" height="256" width="256" />
+        <img class="img" src="https://cdn.sammjazzlounge.com/interview/cathrine-summers/image.jpg" height="256" width="256" />
         <div class="interview title">
             Cathrine Summers
         </div>
@@ -93,14 +93,14 @@ EOD;
 Perth based female jazz singer, Cathrine Summers is a sell-out artist. Since her 2008 debut, Cathrine Summers has lit up many events, festivals, high profile galas and regularly performs nationally and internationally. She’s a resident sell-out artist at local Perth and Melbourne jazz clubs, and has featured in revered festivals like, BRAVO! Cruise of the Performing Arts, Perth International Festival, Jazz By The Bay, sell-out seasons in Fringe World Festival 15, 16, 17 & 18, City of Perth New Years, Kings Park Festival and many more. Described as a cross between Dinah Washington and Anita O’Day, with a splash of Ella Fitzgerald, the UK-born vocalist is acclaimed for her rich timbre and broad vocal range. Her charismatic engagement with the audience is exhilarating.
     </div>
     <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/CATHRINE-SUMMERS.wav" type="audio/x-wav">
+        <source src="https://cdn.sammjazzlounge.com/interview/cathrine-summers/interview.wav" type="audio/x-wav">
     </audio>
 </div>
 EOD;
     $interviewcontent[3] = <<<EOD
 <div class="interview">
     <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/hobgood.jpg" height="256" width="256" />
+        <img class="img" src="https://cdn.sammjazzlounge.com/interview/hobgood/image.jpg" height="256" width="256" />
         <div class="interview title">
             Laurence Hobgood
         </div>
@@ -116,14 +116,14 @@ Kurt Elling during which time he wrote virtually all of the material on Elling's
 albums, all of which received Grammy® nominations. 
     </div>
     <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/HOBGOOD.wav" type="audio/x-wav">
+        <source src="https://cdn.sammjazzlounge.com/interview/hobgood/interview.wav" type="audio/x-wav">
     </audio>
 </div>
 EOD;
     $interviewcontent[4] = <<<EOD
 <div class="interview">
     <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/katepass.webp" height="256" width="256" />
+        <img class="img" src="https://cdn.sammjazzlounge.com/interview/kate-pass/image.webp" height="256" width="256" />
         <div class="interview title">
             Kate Pass
         </div>
@@ -138,14 +138,14 @@ Kate has performed around Australia with several high-profile Persian musicians 
 Kate has been the recipient of several grants and scholarships including the ECU Academic Excellence Scholarship, WAYJO Jack Bendat Travel Scholarship, ArtStart Australian Council for the Arts Grant and DCA Commercial Development Grant. These have enabled her to develop her career through performance and study locally, in the USA and Europe at institutions such as WAAPA, New York University and Conservatorium van Amsterdam.<br>
     </div>
     <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/KATE-PASS.mp3" type="audio/mpeg">
+        <source src="https://cdn.sammjazzlounge.com/interview/kate-pass/interview.mp3" type="audio/mpeg">
     </audio>
 </div>
 EOD;
     $interviewcontent[5] = <<<EOD
 <div class="interview">
     <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/libbyhammer.jpg" height="256" width="256" />
+        <img class="img" src="https://cdn.sammjazzlounge.com/interview/libby-hammer/libbyhammer.jpg" height="256" width="256" />
         <div class="interview title">
             Libby Hammer
         </div>
@@ -154,14 +154,14 @@ EOD;
  Libby Hammer is a West Australian jazz singer, bandleader and vocal coach. Libby Hammer leads and performs in ensembles ranging from an intimate duo to a swingin' big band. Libby Hammer can compose and arrange music too, some of which can be heard on our CDs. Libby Hammer is also an actor with a background in musical theatre and circus. Yes, Libby Hammer can juggle! Above all, Libby Hammer love to bring high quality, fun, entertaining jazz music to the broader public. Libby Hammer is also passionate about sharing her skills and experiences with other singers to enable them to reach their own goals while lifting benchmarks for singers everywhere.
     </div>
     <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/LIBBY-HAMMER.wav" type="audio/x-wav">
+        <source src="https://cdn.sammjazzlounge.com/interview/libby-hammer/interview.wav" type="audio/x-wav">
     </audio>
 </div>
 EOD;
     $interviewcontent[6] = <<<EOD
 <div class="interview">
     <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/pjs.png" height="256" width="256" />
+        <img class="img" src="https://cdn.sammjazzlounge.com/interview/pjs/image.png" height="256" width="256" />
         <div class="interview title">
             Perth Jazz society
         </div>
@@ -175,14 +175,14 @@ The PJS has a strong subscription base of some 500 members who receive a substan
 <br><br>
     </div>
     <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/PJS.wav" type="audio/x-wav">
+        <source src="https://cdn.sammjazzlounge.com/interview/pjs/interview.wav" type="audio/x-wav">
     </audio>
 </div>
 EOD;
     $interviewcontent[7] = <<<EOD
 <div class="interview">
     <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/vincejones.jpg" height="256" width="256" />
+        <img class="img" src="https://cdn.sammjazzlounge.com/interview/vince-jones/image.jpg" height="256" width="256" />
         <div class="interview title">
             Vince Jones
         </div>
@@ -199,14 +199,14 @@ He has sold more than 200,000 albums worldwide and still tours and performs regu
 Currently he is living on the south coast of New South Wales, on the edge of the Royal National Park, and he teaches part-time at the Canberra School of Music, Australian National University.
     </div>
     <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/VINCE-JONES.mp3" type="audio/mpeg">
+        <source src="https://cdn.sammjazzlounge.com/interview/vince-jones/interview.mp3" type="audio/mpeg">
     </audio>
 </div>
 EOD;
 	$interviewcontent[8] = <<<EOD
 <div class="interview">
     <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/kurtelling.jpg" height="256" width="256" />
+        <img class="img" src="https://cdn.sammjazzlounge.com/interview/kurt-elling/image.jpg" height="256" width="256" />
         <div class="interview title">
             Kurt Elling
         </div>
@@ -219,14 +219,14 @@ Born in Chicago, Illinois, and raised in Rockford, Elling became interested in m
 Elling began to perform around Chicago, scat singing and improvising his lyrics. He recorded a demo in the early 1990s and was signed by Blue Note. He has been nominated for ten Grammy Awards, winning Best Vocal Jazz Album for Dedicated to You (2009). Elling often leads the Down Beat magazine Critics' Poll. He has collaborated often with pianist Laurence Hobgood, leading a quartet that tours throughout the world.
     </div>
     <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/KURT-ELLING.wav" type="audio/x-wav">
+        <source src="https://cdn.sammjazzlounge.com/interview/kurt-elling/interview.wav" type="audio/x-wav">
     </audio>
 </div>
 EOD;
 	$interviewcontent[9] = <<<EOD
 <div class="interview">
     <div class="interview image">
-        <img class="img" src="https://storage.googleapis.com/dariox/samm/webasset/pennyking.png" height="256" width="256" />
+        <img class="img" src="https://cdn.sammjazzlounge.com/interview/penny-king/image.png" height="256" width="256" />
         <div class="interview title">
             Penny King
         </div>
@@ -238,7 +238,7 @@ Penny regularly plays sell out shows at Western Australia’s finest music venue
 
     </div>
     <audio controls class="interview audio">
-        <source src="https://storage.googleapis.com/dariox/samm/interview/PENNY-KING.wav" type="audio/x-wav">
+        <source src="https://cdn.sammjazzlounge.com/interview/penny-king/interview.wav" type="audio/x-wav">
     </audio>
 </div>
 EOD;
@@ -317,46 +317,48 @@ EOD;
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-    <div class="header">
-        <div class="navbar">
-            <a class="active" href="?page=home">Home</a>
-            <a href="?page=home#shows">Shows</a>
-            <a href="?page=home#interview">Interviews</a>
-            <a href="?page=contact">Contact</a>
+        <div class="navbar"> 
+            <ul>
+                <!-- style="float:right" -->
+                <li><a href="?p=home">Home</a></li>
+                <li><a href="?p=shows">Shows</a></li>
+                <li><a href="?p=interview">Interviews</a></li>
+                <li><a href="?p=contact">Contact</a></li>
+            </ul>
         </div>
-    </div>
-    <div class="content">
-        <div class="title">
-            <h1>Samm Jazz Lounge - <?php echo($title); ?></h1>
+        <div class="navbar_seperator"></div>
+        <div class="content">
+            <div class="title">
+                <h1>Samm Jazz Lounge - <?php echo($title); ?></h1>
+            </div>
+            <?php echo($content); ?>
+            <?php if($interviewid == 'adam-hall') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php elseif($interviewid == 'cathrine-summers') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php elseif($interviewid == 'hobgood') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php elseif($interviewid == 'kate-pass') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php elseif($interviewid == 'libby-hammer') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php elseif($interviewid == 'pjs') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php elseif($interviewid == 'vince-jones') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php elseif($interviewid == 'kurt-elling') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php elseif($interviewid == 'penny-king') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php elseif($interviewid == 'libby-hammer') : ?>
+                <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
+            <?php endif; ?>
         </div>
-        <?php echo($content); ?>
-        <?php if($interviewid == 'adam-hall') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php elseif($interviewid == 'cathrine-summers') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php elseif($interviewid == 'hobgood') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php elseif($interviewid == 'kate-pass') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php elseif($interviewid == 'libby-hammer') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php elseif($interviewid == 'pjs') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php elseif($interviewid == 'vince-jones') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php elseif($interviewid == 'kurt-elling') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php elseif($interviewid == 'penny-king') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php elseif($interviewid == 'libby-hammer') : ?>
-            <a class="download" href="<?php echo $audio; ?>" download>Download this Interview</a>
-        <?php endif; ?>
-    </div>
-    <div class="footer">
-        <div class="copyright">
-            Powered by <a href="http://dariox.club">DARiOX</a>
+        <div class="footer">
+            <div class="copyright">
+                Powered by <a href="http://dariox.club">DARiOX</a>
+            </div>
         </div>
-    </div>
     </body>
 </html>
 

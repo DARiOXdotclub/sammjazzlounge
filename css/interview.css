@@ -1,0 +1,22 @@
+audio.interview{
+    position: absolute;
+    top: 350px;
+    right: 15px;
+}
+
+
+div.interview.image {
+    position:absolute;
+    top: 60px;
+    right: 15px;
+}
+
+div.interview.description{
+    width: 70%;
+}
+
+div.content a.download {
+    position: absolute;
+    top: 400px;
+    right: 15px;
+}
