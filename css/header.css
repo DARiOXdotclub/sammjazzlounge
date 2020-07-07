@@ -35,7 +35,3 @@ div.navbar ul li a:hover {
     color: black;
     transition:0.1s;
 }
-
-div.navbar_seperator{
-    padding-bottom: 40px;
-}

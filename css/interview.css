@@ -10,6 +10,9 @@ div.interview.image {
     top: 60px;
     right: 15px;
 }
+div.interview.image img{
+    border-radius: 5px;
+}
 
 div.interview.description{
     width: 70%;
