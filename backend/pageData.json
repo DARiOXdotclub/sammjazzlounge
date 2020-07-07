@@ -1,0 +1,110 @@
+[
+    {
+        "name": "home",
+        "fancyTitle": "%cust%Samm Jazz Lounge Homepage",
+        "type": "page",
+        "data_location": "data/home.html"
+    },
+    {
+        "name": "contact",
+        "fancyTitle": "%cust%Contact Page",
+        "type": "page",
+        "data_location": "data/contact.html"
+    },
+    {
+        "name": "404",
+        "fancyTitle": "404 Page Not Found",
+        "type": "page",
+        "data_location": "data/404.html"
+    },
+    {
+        "name": "adam-hall",
+        "fancyTitle": "Adam Hall",
+        "type": "interview",
+        "data_location": "data/intv/adam_hall.html",
+        "interview": {
+            "audio_location": "https://cdn.sammjazzlounge.com/interview/adam-hall/interview.wav",
+            "image": "https://cdn.sammjazzlounge.com/interview/adam-hall/image.png"
+        }
+    },
+    {
+        "name": "cathrine-summers",
+        "fancyTitle": "Cathrine Summers",
+        "type": "interview",
+        "data_location": "data/intv/cathrine_summers.html",
+        "interview": {
+            "audio_location": "https://cdn.sammjazzlounge.com/interview/cathrine-summers/interview.wav",
+            "image": "https://cdn.sammjazzlounge.com/interview/cathrine-summers/image.jpg"
+        }
+    },
+    {
+        "name": "hobgood",
+        "fancyTitle": "Laurence Hobgood",
+        "type": "interview",
+        "data_location": "data/intv/hobgood.html",
+        "interview": {
+            "audio_location": "https://cdn.sammjazzlounge.com/interview/hobgood/interview.wav",
+            "image": "https://cdn.sammjazzlounge.com/interview/hobgood/image.jpg"
+        }
+    },
+    {
+        "name": "kate-pass",
+        "fancyTitle": "Kate Pass",
+        "type": "interview",
+        "data_location": "data/intv/kate_pass.html",
+        "interview": {
+            "audio_location": "https://cdn.sammjazzlounge.com/interview/kate-pass/interview.mp3",
+            "image": "https://cdn.sammjazzlounge.com/interview/kate-pass/image.webp"
+        }
+    },
+    {
+        "name": "libby-hammer",
+        "fancyTitle": "Libby Hammer",
+        "type": "interview",
+        "data_location": "data/intv/libby_hammer.html",
+        "interview": {
+            "audio_location": "https://cdn.sammjazzlounge.com/interview/libby-hammer/interview.wav",
+            "image": "https://cdn.sammjazzlounge.com/interview/libby-hammer/libbyhammer.jpg"
+        }
+    },
+    {
+        "name": "pjs",
+        "fancyTitle": "Perth Jazz Societey",
+        "type": "interview",
+        "data_location": "data/intv/perth_jazz_society.html",
+        "interview": {
+            "audio_location": "https://cdn.sammjazzlounge.com/interview/pjs/interview.wav",
+            "image": "https://cdn.sammjazzlounge.com/interview/pjs/image.png"
+        }
+    },
+    {
+        "name": "vince-jones",
+        "fancyTitle": "Vince Jones",
+        "type": "interview",
+        "data_location": "data/intv/vince_jones.html",
+        "interview": {
+            "audio_location": "https://cdn.sammjazzlounge.com/interview/vince-jones/interview.mp3",
+            "image": "https://cdn.sammjazzlounge.com/interview/vince-jones/image.jpg"
+        }
+    },
+    {
+        "name": "kurt-elling",
+        "fancyTitle": "Kurt Elling",
+        "type": "interview",
+        "data_location": "data/intv/kurt_elling.html",
+        "interview": {
+            "audio_location": "https://cdn.sammjazzlounge.com/interview/kurt-elling/interview.wav",
+            "image": "https://cdn.sammjazzlounge.com/interview/kurt-elling/image.jpg"
+        }
+    },
+    {
+        "name": "penny-king",
+        "fancyTitle": "Penny King",
+        "type": "interview",
+        "data_location": "data/intv/penny_king.html",
+        "interview": {
+            "audio_location": "https://cdn.sammjazzlounge.com/interview/penny-king/interview.wav",
+            "image": "https://cdn.sammjazzlounge.com/interview/penny-king/image.png"
+        }
+    }
+]
