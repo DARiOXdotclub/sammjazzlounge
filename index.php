@@ -41,7 +41,7 @@
             $pageReturn = fetchPage("404");
         }
 
-        print_r($pageReturn);
+        //print_r($pageReturn);
 
 
     }

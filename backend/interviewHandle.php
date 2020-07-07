@@ -43,7 +43,7 @@
 
         $final = '<div class="interview">'.$sideBarImage.$dataContents.$audio."</div>";
 
-        print_r($sideBarImage);
+        //print_r($sideBarImage);
 
         return $final;
     }
